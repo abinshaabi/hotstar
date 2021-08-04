@@ -4,11 +4,12 @@ import NavBar from '../components/NavBar/NavBar.component';
 const DefaultLayout = (props) => {
     return (
         <>
-            <div className="bg-nav-100">
+            <body className="h-screen bg-nav-00">
                 <NavBar />
+                {props.children}
                 
              
-            </div>
+            </body>
             
         </>
     )
