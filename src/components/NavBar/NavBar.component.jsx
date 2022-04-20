@@ -8,7 +8,7 @@ const NavBar = () => {
     const NavSm = () => {
         return (
             <>
-               <div className="flex justify-between items-center">
+               <div className=" flex justify-between items-center">
                    <div className="flex items-center gap-3 ">
                         <div className="text-white  w-6 h-6">
                                 <BiMenu className="w-full h-full hover:text-gray-400"/>
@@ -119,7 +119,7 @@ const NavBar = () => {
     
     return (
         <>
-            <nav className="px-4 py-2 bg-nav-100 lg:px-12 lg:py-4">
+            <nav className="sticky top-0 z-50 px-4 py-2 bg-nav-100 lg:px-12 lg:py-4">
                 <div className="md:hidden ">
                     <NavSm />
                 </div>

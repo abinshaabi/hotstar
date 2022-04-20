@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar/NavBar.component';
 const DefaultLayout = (props) => {
     return (
         <>
-            <body className="h-screen bg-nav-00">
+            <body className="h-screen bg-nav-100">
                 <NavBar />
                 {props.children}
                 

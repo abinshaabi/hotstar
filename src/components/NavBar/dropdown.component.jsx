@@ -18,7 +18,7 @@ export default function Dropdown(props) {
             
           </a>
           
-          <ul className="dropdown-menu absolute hidden text-gray-700 pt-4">
+          <ul className="dropdown-menu z-30 absolute hidden text-gray-700 pt-4">
             <li className=""><a className="rounded-t bg-nav-200 text-sm text-gray-200 hover:bg-nav-300 py-2 px-4 block whitespace-nowrap" href="#">{props.list[0]}</a></li>
 
             {abc.map((item) => (
