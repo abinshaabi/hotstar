@@ -13,7 +13,7 @@ const HeroCard = (props) => {
   }
   requestGenre(); 
   }, [])
-  console.log("genres", {genres});
+  //console.log("genres", {genres});
   let date = props.movie.release_date.substr(0,4)
   return (
     <div style={{height: "400px", backgroundColor: '#030b16'}} className='w-full flex mx-auto rounded-lg'>
