@@ -6,7 +6,7 @@ import './dropdown.css'
 export default function Dropdown(props) {
 
   const abc = props.list.filter((item, index) => {if (!(index===0||index===(props.list.length-1))) return item }  )
-  console.log(abc); //{if ( !(index===0||index===(props.list.length-1)) ) return item }
+  //{if ( !(index===0||index===(props.list.length-1)) ) return item }
   
   return (
     <>
