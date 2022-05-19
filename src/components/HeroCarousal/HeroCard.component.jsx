@@ -27,7 +27,7 @@ const HeroCard = (props) => {
         <div className='w-8/12 h-full object-cover  '>
             {/*<div className='absolute opacity-80 bg-black h-full w-5' style={{transform: "rotate(180deg)" , backgroundImage: "linear-gradient(90deg, rgb(3, 11, 22) 24.97%, rgb(3, 11, 22) 38.3%, rgba(3, 11, 22, 0.04) 97.47%, rgb(3, 11, 22) 100%"}} /> */}
             
-            <img className='w-full h-full object-cover rounded-r-lg' src={`https://image.tmdb.org/t/p/original${props.movie.backdrop_path}`} alt="" />
+            <img className='w-full h-full object-cove rounded-r-lg' src={`https://image.tmdb.org/t/p/original${props.movie.backdrop_path}`} alt="" />
         
         </div>
     </div>

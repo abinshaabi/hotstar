@@ -31,31 +31,20 @@ const NavBar = () => {
     const NavMd = () => {
         return (
             <>
-               <div className="flex justify-between items-center ml-3 mr-2">
-                   <div className="flex items-center  gap-3 ">
-                        <div className="text-white w-6 h-6">
-                                <BiMenu className="w-full h-full"/>
+               <div className=" flex justify-between items-center">
+                   <div className="flex items-center gap-3 ">
+                        <div className="text-white  w-6 h-6">
+                                <BiMenu className="w-full h-full hover:text-gray-400"/>
                         </div>
                         <div className="w-auto">
                             <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" 
                             className="w-full h-full pb-2"
                             alt="logo" />
                         </div>
-                        <button className="bg-blue-600 text-white text-xs font-semibold px-1 py-0.5 rounded">SUBSCRIBE</button>
+                        <button className="bg-blue-600 text-white text-xs font-semibold px-1 py-0.5 rounded hover:bg-blue-500">SUBSCRIBE</button>
                    </div>
-                   <div className="flex items-center gap-5">
-                        <div className=" border-b-2 border-gray-600  w-60 text-white flex items-center">
-                            
-                            <input type="search"  
-                            placeholder="Search"
-                            className=" w-full bg-transparent border-none focus:outline-none"
-                            />
-                            
-                            <BiSearch />
-                        </div>
-                        <div className="text-white pb-1">
-                                <button className="bg-transparent text-sm">LOGIN</button>
-                        </div>
+                   <div className="text-white w-4 h-4 hover:text-gray-400">
+                        <BiSearch className="w-full h-full"/>
                    </div>
                 </div>
             </>

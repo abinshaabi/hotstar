@@ -1,0 +1,21 @@
+#slider::-webkit-scrollbar{
+    display: none;
+}
+
+
+.moviecard{
+    width: 90px; 
+}
+@media (min-width: 400px){
+    .moviecard{
+        width: 120px; 
+        height: px;
+    }
+}
+
+@media (min-width: 1024px){
+    .moviecard{
+        width: 147px; 
+        height: 200px;
+    }
+}

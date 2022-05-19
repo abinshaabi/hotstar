@@ -1,6 +1,5 @@
 import React from 'react'
 import MovieCard from './MovieCard'
-import "./SliderRow.component.css"
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
@@ -18,10 +17,10 @@ const Latest = (props) => {
     }
     requestLatest();
     }, [])
-  
+    //fontSize:"21px"
   return (
-    <div className='pl-12'>
-        <h1 className=" font-medium py-4" style={{fontSize:"21px"}}>{props.title}</h1>
+    <div className='lg:pl-12 pl-3 pb-1 lg:pb-3 md:pl-2'>
+        <h1 className="py-2 lg:py-4 font-medium md:text-lg lg:text-xl" style={{}}>{props.title}</h1>
         <div id="slider" className='flex gap-3' style={{overflowX: "scroll"}}>
             {latest.map((movie) => (
               <MovieCard movie={movie}/>   
